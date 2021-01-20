@@ -1,17 +1,21 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+
 import { Provider } from 'react-redux';
 
-import store from './store';
-import Catalog from './components/Catalog';
-import Cart from './components/Cart';
+import Routes from './routes';
 
-function App() {
-  return (
+import store from './store';
+
+const App: React.FC = () => (
+  <>
     <Provider store={store}>
-      <Catalog />
-      <Cart />
+      <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
     </Provider>
-  );
-}
+  </>
+);
+
 
 export default App;
