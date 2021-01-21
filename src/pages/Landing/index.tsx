@@ -12,7 +12,7 @@ const Landing: React.FC = () => {
       <Content>
         <h1>Candy your day</h1>
         <h3>Pie brownie chocolate candy ice cream cotton candy. Icing cream gummies chocolate sugar. Dessert wafer pudding bears.</h3>
-        <Button>
+        <Button type="button">
           <Link to="/shoppingcart">
             Find your dessert
           </Link>

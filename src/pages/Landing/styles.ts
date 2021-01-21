@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { shade } from 'polished';
 
 export const Container = styled.div`
   height: 100vh;
@@ -33,16 +34,23 @@ export const Content = styled.div`
   }
 `;
 
-export const Button = styled.div`
-  width: 29.2rem;
+export const Button = styled.button`
+  width: 100%;
   height: 6.8rem;
   background: linear-gradient(90deg, #F8BE61 -6.73%, #F78A6C 100%);
+  border: 0;
   border-radius: 8.8rem;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  transition: background-color 0.2s;
+
+  &:hover {
+    background: linear-gradient(90deg, #F3AF42 -6.73%, #FB8261 100%);
+  }
 
   a {
     color: #fff;
