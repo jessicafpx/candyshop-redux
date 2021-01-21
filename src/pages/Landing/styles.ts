@@ -70,6 +70,8 @@ export const Background = styled.div`
 
   #donut {
     position: absolute;
+    top: 24rem;
+    width: 80rem;
   }
 
 `;
