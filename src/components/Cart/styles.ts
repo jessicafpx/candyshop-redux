@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.footer`
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
   height: 8rem;
   background: linear-gradient(90deg, #F9C585 0%, #F797CB 100%);
 
