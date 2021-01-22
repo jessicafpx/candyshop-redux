@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import api from '../../services/api';
 
 import { IProduct } from '../../store/modules/cart/types';
-import CatalogItem from '../CatalogItem';
+import CatalogItem from '../CatalogItem/index';
 
 import { FiArrowLeft } from 'react-icons/fi';
 
