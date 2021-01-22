@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Catalog from '../../components/Catalog';
-import Cart from '../../components/Cart';
+import Catalog from '../../components/Catalog/index';
+import Cart from '../../components/Cart/index';
 
 // import { Container } from './styles';
 
