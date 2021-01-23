@@ -4,6 +4,9 @@ import { addProductToCartRequest } from '../../store/modules/cart/actions';
 import { useDispatch, useSelector } from 'react-redux';
 import { IState } from '../../store';
 
+import Img from '../../assets/icecream.png';
+
+import { Container } from './styles';
 interface CatalogItemProps {
   product: IProduct;
 }
@@ -20,19 +23,22 @@ const CatalogItem: React.FC<CatalogItemProps> = ({ product }) => {
   }, [dispatch, product]);
 
   return (
-    <article >
+    <Container >
+      <section>
+        <img src={Img} />
+      </section>
       <strong>{product.title}</strong> {" - "}
-      <span>{product.price}</span> {" "}
+      <span>${product.price.toFixed(2)}</span> {" "}
 
       <button
         type="button"
         onClick={handleAddProductToCart}
       >
-        Comprar
+        SHOP
       </button>
 
-      {hasFailedStockCheck && <span style={{ color: 'red' }}>Falta de estoque</span>}
-    </article>
+      {hasFailedStockCheck && <span className="outOfStock">Falta de estoque</span>}
+    </Container>
   );
 }
 
