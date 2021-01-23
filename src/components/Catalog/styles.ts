@@ -5,7 +5,7 @@ export const Container = styled.div`
   height: 90vh;
   max-width: 1280px;
   margin: 0 auto;
-  padding: 6rem 0;
+  padding: 4rem 0;
 `;
 
 export const Header = styled.header`
@@ -28,5 +28,8 @@ export const Header = styled.header`
 export const Content = styled.main`
   display: flex;
   grid-template-columns: repeat(3, 1fr);
+  gap: 12rem;
+
+  overflow-x: hidden;
   margin-top: 3.6rem;
 `;
