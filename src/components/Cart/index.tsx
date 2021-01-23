@@ -35,9 +35,9 @@ const Cart: React.FC = () => {
       <section>
         <TotalItens>
           <RiShoppingCart2Line size={36} color="#fff" />
-          <h4>{totalItensInCart} itens no carrinho</h4>
+          <h4>{totalItensInCart} items in cart</h4>
         </TotalItens>
-        <h4>R$ {cartTotal.toFixed(2)}</h4>
+        <h4>$ {cartTotal.toFixed(2)}</h4>
       </section>
     </Container >
   );
