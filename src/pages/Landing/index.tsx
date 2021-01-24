@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import BackgroundImg from '../../assets/vector-background.png';
 import Donut from '../../assets/donut.png';
 
-import { Container, Content, Button, Background } from './styles';
+import { Container, Content, Background } from './styles';
 
 const Landing: React.FC = () => {
   return (
@@ -12,14 +12,12 @@ const Landing: React.FC = () => {
       <Content>
         <h1>Candy your day</h1>
         <h3>Pie brownie chocolate candy ice cream cotton candy. Icing cream gummies chocolate sugar. Dessert wafer pudding bears.</h3>
-        <Button type="button">
-          <Link to="/shoppingcart">
-            Find your dessert
-          </Link>
-        </Button>
+        <Link to="/shoppingcart">
+          Find your dessert
+        </Link>
       </Content>
       <Background>
-        <img src={BackgroundImg} alt="Vector Background" id="background"></img>
+        {/* <img src={BackgroundImg} alt="Vector Background" id="background"></img> */}
         <img src={Donut} alt="Donut" id="donut"></img>
       </Background>
     </Container>
