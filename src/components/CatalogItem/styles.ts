@@ -1,8 +1,9 @@
 import styled from 'styled-components';
+import { shade } from 'polished';
 
 export const Container = styled.div`
-  width: 34.5rem;
-  height: 54.5rem;
+  width: 30rem;
+  height: 47rem;
 
   background: linear-gradient(180deg, #F9C388 0%, rgba(247, 152, 202, 0.29) 100%), #F0D6E2;
   border-radius: 1.6rem;
@@ -13,16 +14,16 @@ export const Container = styled.div`
   align-items: center;
 
   section {
-    width: 24rem;
-    height: 24rem;
+    width: 22rem;
+    height: 22rem;
     border-radius: 50%;
     background: #F797CB;
-    margin-top: -5%;
-    margin-bottom: 3rem;
+
+    margin-bottom: 2rem;
 
     img {
-      width: 24rem;
-      height: 24rem;
+      width: 22rem;
+      height: 22rem;
       border-radius: 50%;
       object-fit: contain;
     }
@@ -30,21 +31,21 @@ export const Container = styled.div`
 
   strong {
     color: #fff;
-    font-size: 3.6rem;
+    font-size: 2.4rem;
     font-weight: 700;
     text-align: center;
-    line-height: 4.2rem;
-    max-width: 24rem;
-    margin-bottom: .5rem;
+    line-height: 3.3rem;
+    max-width: 18rem;
+    margin-bottom: 1rem;
   }
 
   span {
     color: #fff;
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-weight: 700;
     text-align: center;
-    max-width: 24rem;
-    margin-bottom: 1.5rem;
+    max-width: 22rem;
+    margin-bottom: 2.8rem;
   }
 
   button {
@@ -54,10 +55,16 @@ export const Container = styled.div`
     border: none;
 
     color: #fff;
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-weight: 700;
     background: #FF89C4;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    transition: background-color 0.2s;
+
+    &:hover {
+      background: ${shade(0.2, '#FF89C4')};
+    }
   }
 
   .outOfStock {
