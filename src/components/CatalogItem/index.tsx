@@ -27,8 +27,8 @@ const CatalogItem: React.FC<CatalogItemProps> = ({ product }) => {
       <section>
         <img src={Img} />
       </section>
-      <strong>{product.title}</strong> {" - "}
-      <span>${product.price.toFixed(2)}</span> {" "}
+      <strong>{product.title}</strong>
+      <span>${product.price.toFixed(2)}</span>
 
       <button
         type="button"
