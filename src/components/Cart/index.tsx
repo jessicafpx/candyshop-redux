@@ -32,13 +32,11 @@ const Cart: React.FC = () => {
 
   return (
     <Container>
-      <section>
-        <TotalItens>
-          <RiShoppingCart2Line size={36} color="#fff" />
-          <h4>{totalItensInCart} items in cart</h4>
-        </TotalItens>
-        <h4>$ {cartTotal.toFixed(2)}</h4>
-      </section>
+      <TotalItens>
+        <RiShoppingCart2Line size={32} color="#fff" />
+        <h4>{totalItensInCart} items in cart</h4>
+      </TotalItens>
+      <h4>$ {cartTotal.toFixed(2)}</h4>
     </Container >
   );
 }
