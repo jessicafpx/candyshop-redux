@@ -14,6 +14,21 @@
       "id": 3,
       "title": "YOGURT ICE CREAM",
       "price": 5.00
+    },
+    {
+      "id": 4,
+      "title": "NHAM NHAM",
+      "price": 5.00
+    },
+    {
+      "id": 5,
+      "title": "DOCINHO",
+      "price": 5.00
+    },
+    {
+      "id": 6,
+      "title": "BOLO",
+      "price": 5.00
     }
   ],
     "stock": [
@@ -28,6 +43,18 @@
       {
         "id": 3,
         "quantity": 1
+      },
+      {
+        "id": 4,
+        "quantity": 99
+      },
+      {
+        "id": 5,
+        "quantity": 5
+      },
+      {
+        "id": 6,
+        "quantity": 3
       }
     ]
 }
