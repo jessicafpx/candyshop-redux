@@ -1,46 +1,46 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <img src="./src/assets/candy.gif" alt="Gif da aplicação"/>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# 🍩 CandyShop
+This is a candy e-commerce project to reinforce studied concepts about web development using React and Redux.
+A fake API was used to provide the data and Redux was used to manage and share the state of the application, thus enabling the simulation of an e-commerce with shopping cart.
 
-In the project directory, you can run:
+## 💻 Projeto
 
-### `yarn start`
+### Tecnologias
+- React.js
+- Redux
+- TypeScript
+- Styled-Components
+- Slick Carousel
+### Knowledges
+- Use of Redux to manage application states, optimizing rendering cycles and making it possible to share product and shopping cart information between components;
+- Use of the Slick Carousel lib to create the product carousel on the sales page;
+- Application of the concept of responsiveness in the layout of the screens.
+###  Layout
+The application layout is available on the [Figma](https://www.figma.com/file/Y9G7a5bjqqHieZPhKGZeq3/CandyShop?node-id=0%3A1).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🔧 Execute on your PC
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Clone this repository;
+- Run the command to install the dependencies, like `yarn`;
+- Run the command to start the fake API, for example: `yarn server`;
+- Run the command to start the project, for example: `yarn start`;
+- Then access the application at <strong> `http://localhost:3000`</strong>, change the port if you're using another.
 
-### `yarn test`
+## 🤔 How to Contribute
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Fork this repository;
+- Create a branch with your feature: `git checkout -b my-feature`;
+- Commit your changes: `git commit -m 'feat: my new feature'`;
+- Push to your branch: `git push origin my-feature`.
 
-### `yarn build`
+## 📜 License
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> This project is under the MIT license. See the archive [LICENSE](https://github.com/jessicafpx/catalog-redux/blob/main/LICENSE.md) for more details.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+##### <p align="center"> <strong> < developed by <a href="github.com/jessicafpx"> @jessicafpx</a> /> </strong> 👋
