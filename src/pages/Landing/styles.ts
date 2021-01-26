@@ -8,8 +8,12 @@ export const Container = styled.div`
   justify-content: center;
 
   background: url(${BackgroundImg}) no-repeat;
-  background-position:right;
+  background-position: right;
   object-fit: cover;
+
+  @media (max-width: 1100px) {
+    background: none;
+  }
 `;
 
 export const Content = styled.div`
@@ -20,6 +24,10 @@ export const Content = styled.div`
 
   max-width: 575px;
   margin: 0 0 0 11.4rem;
+
+  @media (max-width: 1100px) {
+    margin: 0;
+  }
 
   h1 {
     font-weight: 700;
@@ -70,7 +78,18 @@ export const Background = styled.div`
 
   #donut {
     position: absolute;
-    bottom: 9.4rem;
-    width: 65rem;
+    bottom: 8.8rem;
+    width: 64rem;
+  }
+
+  @media (max-width: 1240px) {
+    #donut {
+      width: 55rem;
+      bottom: 22rem;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    display: none;
   }
 `;
