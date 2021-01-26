@@ -29,15 +29,15 @@ const CatalogItem: React.FC<CatalogItemProps> = ({ product }) => {
       <strong>{product.title}</strong>
       <span>${product.price.toFixed(2)}</span>
 
-      <button
-        type="button"
-        onClick={handleAddProductToCart}
-      >
-        SHOP
-      </button>
+      {hasFailedStockCheck
+        ? <div className="outOfStock">
+          <button type="button" disabled>SHOP</button>
+          <span> Produto indisponível</span>
+        </div>
+        : <button type="button" onClick={handleAddProductToCart}>SHOP</button>
+      }
 
-      {hasFailedStockCheck && <span className="outOfStock">Falta de estoque</span>}
-    </Container>
+    </Container >
   );
 }
 
