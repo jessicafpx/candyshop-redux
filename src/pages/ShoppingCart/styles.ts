@@ -118,6 +118,10 @@ export const Header = styled.header`
   @media (max-width: 500px) {
       padding: 2rem 5rem 2rem 10.5rem;
 
+      svg{
+        width: 28px;
+        height: 28px;
+      }
       h3 {
         font-size: 2.6rem;
       }
