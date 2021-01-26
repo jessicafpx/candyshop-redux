@@ -123,7 +123,7 @@ export const Header = styled.header`
         height: 28px;
       }
       h3 {
-        font-size: 2.6rem;
+        font-size: 2.8rem;
       }
    }
 `;
