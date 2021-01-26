@@ -2,39 +2,40 @@
   "products": [
     {
       "id": 1,
-      "title": "COTTON CANDY",
+      "title": "GUMMY CANDY",
       "price": 5.90,
-      "path": "cottoncandy"
+      "path": "https://images.unsplash.com/photo-1516747773440-e114ee0d3c07?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80"
     },
     {
       "id": 2,
-      "title": "BLUE SKY CUPCAKE",
-      "price": 8.90,
-      "path": "cupcake"
+      "title": "CHERRY LOLLIPOP",
+      "price": 6.90,
+      "path": "https://image.freepik.com/fotos-gratis/imagem-de-close-up-de-um-delicioso-pirulito-colorido_23-2148679271.jpg"
+
     },
     {
       "id": 3,
-      "title": "YOGURT ICE CREAM",
+      "title": "COTTON CANDY",
       "price": 5.00,
-      "path": "icecream"
+      "path": "https://image.freepik.com/fotos-gratis/close-up-de-algodao-doce-em-casquinha-de-sorvete_23-2148679299.jpg"
     },
     {
       "id": 4,
-      "title": "VANILLA MACARON",
+      "title": "RAINBOW M&M'S",
       "price": 10.00,
-      "path": "macaron"
+      "path": "https://image.freepik.com/fotos-gratis/vista-superior-de-jujubas-coloridas-no-prato_23-2148691411.jpg"
     },
     {
       "id": 5,
-      "title": "ROSE DONUT",
+      "title": "BLUE SKY DONUT",
       "price": 7.50,
-      "path": "donut"
+      "path": "https://images.unsplash.com/photo-1516919549054-e08258825f80?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80"
     },
     {
       "id": 6,
-      "title": "CARAMEL POPCORN",
-      "price": 6.90,
-      "path": "popcorn"
+      "title": "FOREST FRUITS MACARON",
+      "price": 8.90,
+      "path": "https://images.unsplash.com/photo-1548848221-0c2e497ed557?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
     }
   ],
     "stock": [
