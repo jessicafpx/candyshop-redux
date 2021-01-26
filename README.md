@@ -39,7 +39,7 @@ The application layout is available on the [Figma](https://www.figma.com/file/Y9
 
 ## 📜 License
 
-> This project is under the MIT license. See the archive [LICENSE](https://github.com/jessicafpx/catalog-redux/blob/main/LICENSE.md) for more details.
+> This project is under the MIT license. See the archive [LICENSE](https://github.com/jessicafpx/candyshop-redux/blob/main/LICENSE.md) for more details.
 
 ---
 
