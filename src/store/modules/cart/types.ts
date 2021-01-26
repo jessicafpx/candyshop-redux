@@ -7,6 +7,7 @@ export interface IProduct {
   id: number;
   title: string;
   price: number;
+  path: string;
 }
 
 export interface ICartItem {
