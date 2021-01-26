@@ -16,6 +16,11 @@ export const Container = styled.footer`
   color: #fff;
   font-size: 2rem;
   font-weight: 700;
+
+  @media (max-width: 500px) {
+    align-items: left;
+    padding: 0 8.5rem;
+   }
 `;
 
 export const TotalItens = styled.div`
@@ -25,4 +30,11 @@ export const TotalItens = styled.div`
   svg {
     margin-right: 2.4rem;
   }
+
+  @media (max-width: 500px) {
+      svg{
+        display: none;
+        margin-right: 0;
+      }
+   }
 `;
