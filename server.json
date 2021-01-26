@@ -3,32 +3,32 @@
     {
       "id": 1,
       "title": "COTTON CANDY",
-      "price": 5.90
+      "price": 5.90,
+      "path": "cottoncandy"
     },
     {
       "id": 2,
       "title": "BLUE SKY CUPCAKE",
-      "price": 8.90
+      "price": 8.90,
+      "path": "cupcake"
     },
     {
       "id": 3,
       "title": "YOGURT ICE CREAM",
-      "price": 5.00
+      "price": 5.00,
+      "path": "icecream"
     },
     {
       "id": 4,
-      "title": "NHAM NHAM",
-      "price": 5.00
+      "title": "VANILLA MACARON",
+      "price": 10.00,
+      "path": "macaron"
     },
     {
       "id": 5,
-      "title": "DOCINHO",
-      "price": 5.00
-    },
-    {
-      "id": 6,
-      "title": "BOLO",
-      "price": 5.00
+      "title": "ROSE DONNUT",
+      "price": 7.50,
+      "path": "donut"
     }
   ],
     "stock": [
@@ -46,15 +46,11 @@
       },
       {
         "id": 4,
-        "quantity": 99
+        "quantity": 7
       },
       {
         "id": 5,
         "quantity": 5
       },
-      {
-        "id": 6,
-        "quantity": 3
-      }
     ]
 }
