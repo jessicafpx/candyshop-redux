@@ -45,7 +45,7 @@ export const Container = styled.div`
     font-weight: 700;
     text-align: center;
     max-width: 22rem;
-    margin-bottom: 2.8rem;
+    margin-bottom: 2rem;
   }
 
   button {
@@ -68,9 +68,24 @@ export const Container = styled.div`
   }
 
   .outOfStock {
-    color: red;
-    font-size: 1.2rem;
-    font-weight: 500;
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    button {
+      color: #B8A5AF;
+      background-color: #fff;
+    }
+
+    button:hover {
+      background-color: #fff;
+    }
+
+    span {
+      position: absolute;
+      top: 44.7rem;
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #fff;
+    }
   }
 `;
