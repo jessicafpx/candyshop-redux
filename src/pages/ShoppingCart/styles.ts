@@ -87,6 +87,15 @@ export const Content = styled.main`
       margin: 0rem 8rem;
     }
    }
+
+   @media (max-width: 500px) {
+    .slick-list .slick-slide {
+      margin: 0rem 0rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+   }
 `;
 
 export const Header = styled.header`
@@ -105,5 +114,13 @@ export const Header = styled.header`
     font-size: 3.6rem;
     font-weight: 700;
   }
+
+  @media (max-width: 500px) {
+      padding: 2rem 5rem 2rem 10.5rem;
+
+      h3 {
+        font-size: 2.6rem;
+      }
+   }
 `;
 
