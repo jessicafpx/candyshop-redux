@@ -4,8 +4,6 @@ import { addProductToCartRequest } from '../../store/modules/cart/actions';
 import { useDispatch, useSelector } from 'react-redux';
 import { IState } from '../../store';
 
-import Img from '../../assets/icecream.png';
-
 import { Container } from './styles';
 interface CatalogItemProps {
   product: IProduct;
@@ -25,7 +23,8 @@ const CatalogItem: React.FC<CatalogItemProps> = ({ product }) => {
   return (
     <Container >
       <section>
-        <img src={Img} />
+        <img src={product.url} alt="product" />
+
       </section>
       <strong>{product.title}</strong>
       <span>${product.price.toFixed(2)}</span>
