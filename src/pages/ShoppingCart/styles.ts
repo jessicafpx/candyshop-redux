@@ -58,6 +58,12 @@ export const Content = styled.main`
     }
    }
 
+   @media (max-width: 1070px) {
+    .slick-list .slick-slide {
+      margin: 0 6rem;
+    }
+   }
+
    @media (max-width: 860px) {
     .slick-list .slick-slide {
       margin: 0 6rem;
@@ -73,6 +79,14 @@ export const Content = styled.main`
    @media (max-width: 710px) {
     .slick-list .slick-slide {
       margin: 0rem 8rem;
+    }
+
+    .slick-prev:before {
+      right: -12vw;
+    }
+
+    .slick-next:before {
+      left: -12vw;
     }
    }
 
@@ -95,7 +109,15 @@ export const Content = styled.main`
       align-items: center;
       justify-content: center;
     }
-   }
+
+    .slick-prev:before {
+      right: -15vw;
+    }
+
+    .slick-next:before {
+      left: -15vw;
+    }
+  }
 `;
 
 export const Header = styled.header`
