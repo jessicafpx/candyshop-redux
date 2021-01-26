@@ -16,7 +16,6 @@ const Landing: React.FC = () => {
         </Link>
       </Content>
       <Background>
-        {/* <img src={BackgroundImg} alt="Vector Background" id="background"></img> */}
         <img src={Donut} alt="Donut" id="donut"></img>
       </Background>
     </Container>
