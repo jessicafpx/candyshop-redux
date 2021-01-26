@@ -58,19 +58,19 @@ export const Content = styled.main`
     }
    }
 
-   @media (max-width: 825px) {
+   @media (max-width: 860px) {
     .slick-list .slick-slide {
       margin: 0 6rem;
     }
    }
 
-   @media (max-width: 745px) {
+   @media (max-width: 790px) {
     .slick-list .slick-slide {
       margin: 0rem 7rem;
     }
    }
 
-   @media (max-width: 670px) {
+   @media (max-width: 710px) {
     .slick-list .slick-slide {
       margin: 0rem 8rem;
     }
@@ -82,7 +82,7 @@ export const Content = styled.main`
     }
    }
 
-   @media (max-width: 560px) {
+   @media (max-width: 570px) {
     .slick-list .slick-slide {
       margin: 0rem 8rem;
     }
