@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import BackgroundImg from '../../assets/vector-background.png';
 import Donut from '../../assets/donut.png';
 
 import { Container, Content, Background } from './styles';
