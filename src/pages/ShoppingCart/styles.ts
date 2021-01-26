@@ -116,7 +116,7 @@ export const Header = styled.header`
   }
 
   @media (max-width: 500px) {
-      padding: 2rem 5rem 2rem 10.5rem;
+      padding: 2rem 8.5rem 2rem 8.5rem;
 
       svg{
         width: 28px;
