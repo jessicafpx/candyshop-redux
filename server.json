@@ -26,9 +26,15 @@
     },
     {
       "id": 5,
-      "title": "ROSE DONNUT",
+      "title": "ROSE DONUT",
       "price": 7.50,
       "path": "donut"
+    },
+    {
+      "id": 6,
+      "title": "CARAMEL POPCORN",
+      "price": 6.90,
+      "path": "popcorn"
     }
   ],
     "stock": [
@@ -52,5 +58,9 @@
         "id": 5,
         "quantity": 5
       },
+      {
+        "id": 6,
+        "quantity": 5
+      }
     ]
 }
