@@ -25,7 +25,10 @@ const ShoppingCart: React.FC = () => {
     speed: 500,
     slidesToShow: 5,
     slidesToScroll: 1,
-    centerPadding: "50px",
+    centerPadding: "10px",
+    centerMode: true,
+    initialSlide: 4,
+
     responsive: [
       {
         breakpoint: 1024,
@@ -46,7 +49,8 @@ const ShoppingCart: React.FC = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          initialSlide: 0,
+          initialSlide: 5,
+          centerMode: true,
         }
       }
     ]
