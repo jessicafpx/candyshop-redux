@@ -7,9 +7,9 @@
 This is a candy e-commerce project to reinforce studied concepts about web development using React and Redux.
 A fake API was used to provide the data and Redux was used to manage and share the state of the application, thus enabling the simulation of an e-commerce with shopping cart.
 
-## 💻 Projeto
+## 💻 Project
 
-### Tecnologias
+### Technologies
 - React.js
 - Redux
 - TypeScript
@@ -18,7 +18,7 @@ A fake API was used to provide the data and Redux was used to manage and share t
 ### Knowledges
 - Use of Redux to manage application states, optimizing rendering cycles and making it possible to share product and shopping cart information between components;
 - Use of the Slick Carousel lib to create the product carousel on the sales page;
-- Application of the concept of responsiveness in the layout of the screens.
+- Use of the responsivity concept in interface layout.
 ###  Layout
 The application layout is available on the [Figma](https://www.figma.com/file/Y9G7a5bjqqHieZPhKGZeq3/CandyShop?node-id=0%3A1).
 
@@ -43,4 +43,4 @@ The application layout is available on the [Figma](https://www.figma.com/file/Y9
 
 ---
 
-##### <p align="center"> <strong> < developed by <a href="github.com/jessicafpx"> @jessicafpx</a> /> </strong> 👋
+##### <p align="center"> <strong> < developed by <a href="https://github.com/jessicafpx"> @jessicafpx</a> /> </strong> 👋

@@ -20,7 +20,7 @@ Foi utilizada uma fake API para fornecer os dados e Redux para gerenciar e compa
 ### Conhecimentos obtidos
 - Utilização de Redux para gerenciamento de estados da aplicação, otimizando os ciclos de renderização e possibilitando compartilhar as informações dos produtos e do carrinho de compras entre os componentes;
 - Utilização da lib Slick Carousel para criação do carrossel de produtos na página de vendas;
-- Aplicação do conceito de responsividade no layout das telas.
+- Utilização do conceito de responsividade no layout das telas.
 
 ###  Layout
 O layout da aplicação está disponível no [Figma](https://www.figma.com/file/Y9G7a5bjqqHieZPhKGZeq3/CandyShop?node-id=0%3A1).
@@ -46,4 +46,4 @@ O layout da aplicação está disponível no [Figma](https://www.figma.com/file/
 
 ---
 
-##### <p align="center"> <strong> < desenvolvido por <a href="github.com/jessicafpx"> @jessicafpx</a> /> </strong> 👋
+##### <p align="center"> <strong> < desenvolvido por <a href="https://github.com/jessicafpx"> @jessicafpx</a> /> </strong> 👋
