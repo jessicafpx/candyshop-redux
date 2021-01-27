@@ -31,7 +31,7 @@ const ShoppingCart: React.FC = () => {
 
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1100,
         settings: {
           slidesToShow: 4,
           slidesToScroll: 1,
