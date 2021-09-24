@@ -1,7 +1,7 @@
 <h1 align="center">
     <img src="./src/assets/candy.gif" alt="Gif da aplicação"/>
 </h1>
-
+ 
 
 # 🍩 CandyShop
 This is a candy e-commerce project to reinforce studied concepts about web development using React and Redux.
