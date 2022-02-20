@@ -43,4 +43,4 @@ The application layout is available on the [Figma](https://www.figma.com/file/Y9
 
 ---
 
-##### <p align="center"> <strong> < developed by <a href="https://github.com/jessicafpx"> @jessicafpx</a> /> </strong> 👋
+##### <p align="center"> <strong> <developed by <a href="https://github.com/jessicafpx"> @jessicafpx</a> /> </strong> 👋
